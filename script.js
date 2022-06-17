@@ -32,7 +32,7 @@ btn.addEventListener("click", function(){
     result1.innerText = `${price1forOne} Ft/cm²`
     result2.innerText = `${price2forOne} Ft/cm²`
 
-if(price1forOne > price2forOne){
+if(price1forOne < price2forOne){
     winner.innerText = `Az első pizza jobban megéri te sóher geci`
 } else{
     winner.innerText = `A második pizza éri meg jobban, de ha a drágábbat választod most az egyszer, attól még sóher maradsz`
