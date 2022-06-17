@@ -1,0 +1,48 @@
+html{
+    box-sizing: border-box;
+}
+h1{
+margin-bottom: 70px;
+text-align: center;
+}
+
+.inputName{
+    display: flex;
+justify-content: space-around;
+text-decoration: underline;
+
+}
+.priceName{
+display: flex;
+justify-content: space-around;
+}
+
+.inputPrice{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sizeName{
+    display: flex;
+    justify-content: space-around;
+}
+
+.inputSize{
+    display: flex;
+    justify-content: space-around;
+}
+
+.outputCompare{
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+   text-align: center;
+}
+
+.outputWinner{
+    text-align: center;
+}
