@@ -37,7 +37,6 @@ if(price1forOne > price2forOne){
 } else{
     winner.innerText = `A második pizza éri meg jobban, de ha a drágábbat választod most az egyszer, attól még sóher maradsz`
 }
-   
 })
 
 
