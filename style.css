@@ -7,6 +7,10 @@ margin-bottom: 70px;
 text-align: center;
 }
 
+h3{
+    font-size: x-large;
+}
+
 .inputName{
     display: flex;
 justify-content: space-around;
@@ -29,6 +33,16 @@ justify-content: space-around;
 }
 
 .inputSize{
+    display: flex;
+    justify-content: space-around;
+}
+
+.numberName{
+    display: flex;
+    justify-content: space-around;
+}
+
+.inputNumber{
     display: flex;
     justify-content: space-around;
 }
@@ -56,4 +70,12 @@ justify-content: space-around;
 
 .hidden{
     display:none
+}
+
+.btnclick{
+    border: 2px solid black;
+    box-shadow: 1px 1px 3px grey
+}
+.btnclick:hover{
+    background-color: beige;
 }
