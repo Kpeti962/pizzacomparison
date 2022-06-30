@@ -4,8 +4,6 @@ const price2 = document.getElementById("secondPrice");
 const size1 = document.getElementById("firstSize");
 const size2 = document.getElementById("secondSize");
 
-const number1 = document.getElementById("firstNumber");
-const number2 = document.getElementById("secondNumber");
 
 const result1 = document.getElementById("outputCompare1");
 const result2 = document.getElementById("outputCompare2");
@@ -20,8 +18,8 @@ const winner = document.getElementById("outputWinner");
   const size1Area = ((size1.value / 2) ** 2 * Math.PI).toFixed();
   const size2Area = ((size2.value / 2) ** 2 * Math.PI).toFixed();
 
-  const price1forOne = (price1.value / size1Area * number1.value).toFixed(2);
-  const price2forOne = (price2.value / size2Area * number2.value).toFixed(2);
+  const price1forOne = (price1.value / size1Area).toFixed(2);
+  const price2forOne = (price2.value / size2Area).toFixed(2);
   result1.classList.remove("hidden") && result2.classList.remove("hidden")
       result1.innerText = `${price1forOne} Ft/cm²`;
       result2.innerText = `${price2forOne} Ft/cm²`;
@@ -56,8 +54,7 @@ btn2.addEventListener("click", function () {
     document.getElementById("secondPrice").value = ""
     document.getElementById("firstSize").value = ""
     document.getElementById("secondSize").value = ""
-    document.getElementById("firstNumber").value = ""
-    document.getElementById("secondNumber").value = ""
+
 
   result1.innerText = "";
   result2.innerText = "";
